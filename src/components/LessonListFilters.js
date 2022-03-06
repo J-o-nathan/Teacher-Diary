@@ -74,7 +74,7 @@ export class LessonListFilters extends React.Component {
     return (
       <div className="content-container">
         <div className="input-group">
-        <p className='mobile-date show-for-mobile'>{this.state.day.format("dddd, MMMM Do YYYY")}</p>
+        <p className='mobile-date show-for-mobile'>{this.props.filteredDate.format("dddd, MMMM Do YYYY")}</p>
           <div className="input-group__item show-on-desktop">
             <input
               type="text"
@@ -127,7 +127,8 @@ export class LessonListFilters extends React.Component {
 };
 
 const mapStateToProps = (state) => ({
-  filters: state.filters
+  filters: state.filters,
+  filteredDate: state.filters.startDate
 });
 
 const mapDispatchToProps = (dispatch) => ({

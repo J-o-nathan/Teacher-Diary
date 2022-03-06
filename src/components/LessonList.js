@@ -15,7 +15,6 @@ export const LessonList = (props) => {
 
 const sameFilteringDates = props.filteredDateEnd.isSame(props.filteredDateStart, 'day')
 
-
 const days14Ago = moment(props.filteredDateStart).subtract(14, 'days')
 const now = moment(props.filteredDateStart)
 
