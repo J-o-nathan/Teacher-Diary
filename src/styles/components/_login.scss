@@ -43,9 +43,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2%;
+    margin-top: 3%;
 
     @media(max-width: ($desktop-breakpoint - 0.01rem)) {
+      margin-top: 6%;
       text-align: center;
     }
         
