@@ -1,0 +1,39 @@
+.input-group {
+  padding-top: 0;
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $m-size;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+    margin-bottom: $l-size;
+  }
+}
+
+
+.select, .text-input {
+  @media(max-width: ($desktop-breakpoint - 0.01rem)) {
+    width: 100%;
+  }
+}
+
+
+
+.input-group__item {
+  margin-bottom: $m-size;
+  @media (min-width: $desktop-breakpoint) {
+    margin: 0 $s-size 0 0;
+  }
+}
+
+#date-range-picker {
+  @media(max-width: ($desktop-breakpoint - 0.01rem)) {
+    display: none;
+  }
+}

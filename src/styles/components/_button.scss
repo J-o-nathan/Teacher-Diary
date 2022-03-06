@@ -1,0 +1,50 @@
+.button {
+  background: white;
+  border: $green solid 2px;
+  color: $green;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: white;
+  background: $green;
+}
+
+.button--link {
+  background: none;
+
+  @media(max-width: ($desktop-breakpoint - 0.01rem)) {
+    margin: 10px;
+  }
+}
+
+.button--secondary {
+  background: rgb(255, 255, 255);
+}
+
+#main-login-button {
+  background-color: $light-grey;
+  padding: $l-size;
+  color: $black;
+  transition: 0.2s;
+  font-size: $m-size;
+  background-color: white;
+  border: 2px solid $green;
+}
+
+#main-login-button:hover {
+  background-color: darken($green, 10%); 
+  color: white;
+}
+
+#reminder-button {
+  font-size: $m-size;
+  margin-top: 2%;
+  padding: 2%;
+}

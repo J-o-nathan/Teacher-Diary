@@ -1,0 +1,30 @@
+.timetable_img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#upload-complete {
+    color: $green;
+    font-weight: 600;
+}
+
+#upload-input {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#progress-bar {
+    margin-left: 5%;
+}
+
+#upload-error {
+    color: red;
+    font-weight: 600;
+}
+
+#loading {
+    margin-top: 5%;
+    font-size: $l-size;
+    font-style: italic;
+}

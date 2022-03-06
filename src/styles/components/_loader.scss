@@ -1,0 +1,32 @@
+.loader {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+
+  @media (max-width: ($desktop-breakpoint - 0.01rem)) {
+    margin-bottom: 10%;
+  }
+
+}
+
+
+.loader__image {
+  height: 6rem;
+  width: 6rem;
+}
+
+#loading {
+  padding-left: 12%;
+  padding-top: 2%;
+}
+
+.loading__image {
+ height: 50%;
+ width: 50%;
+}
+
+#loading-text {
+  text-align: center;
+}

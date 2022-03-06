@@ -1,0 +1,45 @@
+.text-input {
+  border: 1px solid #cacccd;
+  height: 50px;
+  font-size: $font-size-large;
+  font-weight: 300;
+  padding: $s-size;
+}
+
+.text-input.field-error {
+  background: #FFE3E3;
+  border: solid 1px red;
+}
+
+.select {
+  @extend .text-input;
+}
+
+.textarea {
+  @extend .text-input;
+  height: 10rem;
+}
+
+.increment-button {
+  height: 35px;
+  margin: 0 2px;
+
+  @media(max-width: ($desktop-breakpoint - 0.01rem)) {
+    padding: 0;
+    margin: 0 25px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.increment-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-date {
+  font-size: x-large;
+  text-decoration: dashed;
+  margin-bottom: 10%;
+}
