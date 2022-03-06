@@ -47,4 +47,9 @@
   font-size: $m-size;
   margin-top: 2%;
   padding: 2%;
+
+  @media(max-width: ($desktop-breakpoint - 0.01rem)) {
+    padding: 3%;
+    width: 100%;
+  }
 }
