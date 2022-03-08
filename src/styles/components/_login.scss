@@ -74,6 +74,7 @@
     color: $dark-grey;
     font-size: 20px;
     margin-bottom: 12%;
+    margin-top: -1%;
     animation: moveInRight 1s ease-out;
 
     @media(max-width: ($desktop-breakpoint - 0.01rem)) {
