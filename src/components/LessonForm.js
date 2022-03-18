@@ -92,7 +92,7 @@ export default class LessonForm extends React.Component {
           isOutsideRange={() => false}
         />
         <textarea
-          placeholder="Add a note for your lesson (optional)"
+          placeholder="Add lesson details and syllabus outcomes"
           className="textarea"
           value={this.state.note}
           onChange={this.onNoteChange}
